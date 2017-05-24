@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.list_item_message.view.*
 
-class ListAdapter(val context: Context) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
+class ListAdapter(context: Context) : RecyclerView.Adapter<ListAdapter.ViewHolder>() {
     private val mContext = context
     private val mMessages = ArrayList<Message>()
 
